@@ -1,7 +1,7 @@
 # mostly steal from sequenceiq's great Builderfile https://registry.hub.docker.com/u/sequenceiq/hadoop-docker/dockerfile
 # adapt to ubuntu14.10
 
-FROM ptorrestr/docker_hadoop:2.4.1_pseudo
+FROM ptorrestr/docker-hadoop:2.4.1_pseudo
 MAINTAINER ptorrestr <pablo.torres.t@gmail.com>
 
 # cluster master(namenode)
