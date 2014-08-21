@@ -2,7 +2,7 @@
 # adapt to ubuntu14.10
 
 FROM ptorrestr/docker_hadoop:2.4.1_pseudo
-MAINTAINER notyycn <notyycn@gmail.com>
+MAINTAINER ptorrestr <pablo.torres.t@gmail.com>
 
 # cluster master(namenode)
 RUN mkdir -p /var/hadoopdata/hdfs/nn
