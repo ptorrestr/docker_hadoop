@@ -1,7 +1,7 @@
 # mostly steal from sequenceiq's great Builderfile https://registry.hub.docker.com/u/sequenceiq/hadoop-docker/dockerfile
 # adapt to ubuntu14.10
 
-FROM notyy/docker_hadoop:2.4.1_pseudo
+FROM ptorrestr/docker_hadoop:2.4.1_pseudo
 MAINTAINER notyycn <notyycn@gmail.com>
 
 # cluster master(namenode)
