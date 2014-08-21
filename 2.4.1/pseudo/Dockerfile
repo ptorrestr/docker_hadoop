@@ -1,8 +1,8 @@
 # mostly steal from sequenceiq's great Builderfile https://registry.hub.docker.com/u/sequenceiq/hadoop-docker/dockerfile
 # adapt to ubuntu14.10
 
-FROM notyy/docker_hadoop:2.4.1_base
-MAINTAINER notyycn <notyycn@gmail.com>
+FROM ptorrestr/docker_hadoop:2.4.1_base
+MAINTAINER notyycn <pablo.torres.t@gmail.com>
 ENV HADOOP_PREFIX /usr/local/hadoop
 
 RUN sed -i '/^export JAVA_HOME/ s:.*:export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64\nexport HADOOP_PREFIX=/usr/local/hadoop\nexport HADOOP_HOME=/usr/local/hadoop\n:' $HADOOP_PREFIX/etc/hadoop/hadoop-env.sh
