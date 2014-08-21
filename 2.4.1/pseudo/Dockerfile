@@ -1,7 +1,7 @@
 # mostly steal from sequenceiq's great Builderfile https://registry.hub.docker.com/u/sequenceiq/hadoop-docker/dockerfile
 # adapt to ubuntu14.10
 
-FROM ptorrestr/docker_hadoop:2.4.1_base
+FROM ptorrestr/docker-hadoop:2.4.1_base
 MAINTAINER notyycn <pablo.torres.t@gmail.com>
 ENV HADOOP_PREFIX /usr/local/hadoop
 
